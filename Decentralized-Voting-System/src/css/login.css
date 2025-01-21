@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+#head {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+  color: #f0db4f;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #f0db4f;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f0db4f;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}

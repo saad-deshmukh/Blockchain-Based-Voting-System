@@ -1,0 +1,110 @@
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background-size: cover;
+  background: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradient Background */
+  color: #fff;
+}
+
+/* Container Styling */
+.container {
+  width: 750px;
+  max-width: 900px;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 40px;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Heading Styling */
+h1 {
+  font-size: 32px;
+  color: #f0db4f; /* Yellow */
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  color: #f0db4f;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: #f0db4f;
+}
+
+p {
+  color: #fff;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: rgba(124, 123, 123, 0.65);
+  border-radius: 5px;
+  border-collapse: separate;
+  border-spacing: 25px;
+}
+
+th {
+  font-size: 18px;
+  color: #f0db4f; /* Yellow */
+}
+
+td {
+  font-size: 16px;
+  color: #fff;
+  row-gap: 100%;
+}
+
+/* Vote Button Styling */
+#voteButton {
+  width: 40%;
+  padding: 12px;
+  background-color: #f0db4f; /* Yellow */
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+#voteButton:hover {
+  background-color: #ffd700; /* Lighter yellow on hover */
+}
+
+#voteButton:focus {
+  outline: none;
+}
+
+#voteButton:active {
+  transform: translateY(2px);
+}
+
+/* Account Address Styling */
+#accountAddress {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}

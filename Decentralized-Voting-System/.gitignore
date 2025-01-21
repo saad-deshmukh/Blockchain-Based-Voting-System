@@ -1,0 +1,9 @@
+node_modules
+build
+package-lock.json
+
+# Ignore .env files in Decentralized-Voting-System/
+.env
+
+# Ignore dist folder in Decentralized-Voting-System/
+Decentralized-Voting-System/dist/
