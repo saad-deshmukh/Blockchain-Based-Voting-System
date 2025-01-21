@@ -12,14 +12,19 @@ User-Friendly Interface: Intuitive UI for voters to cast votes and view candidat
 # ** Snapshots of the project**
 
 ***LOGIN PAGE***
+
 ![Login Page](https://github.com/saad-deshmukh/Blockchain-Based-Voting-System/blob/main/Decentralized-Voting-System/snapshots/login.png?raw=true)
 
 ***ADMIN PAGE***
+
 ![Admin Page](https://github.com/saad-deshmukh/Blockchain-Based-Voting-System/blob/main/Decentralized-Voting-System/snapshots/admin.png?raw=true)
 
 ***VOTING PAGE***
+
 ![Voter Page](https://github.com/saad-deshmukh/Blockchain-Based-Voting-System/blob/main/Decentralized-Voting-System/snapshots/voting.png?raw=true)
 
 
-# If you like this project, please give it a 🌟.
-# Thank you 😊.
+# If you find this project helpful, consider giving it a star.🌟.
+
+
+# Thank you  very much 😊.
